@@ -31,6 +31,10 @@
 	margin-left: 2px;
 }
 
+#business {
+	padding-left: 23px;
+}
+
 .center {
     margin: auto;
     width: 50%;
@@ -122,6 +126,23 @@
 	padding-right: 15px;
 }
 
+.foot-left {
+	display: inline-block;
+	margin-top: 11px;
+	margin-left: 15px;
+}
+
+.foot-right {
+	float: right;
+	display: inline-block;
+	margin-top: 11px;
+	margin-right: 22px;
+}
+
+.foot-right a {
+	padding-right: 8px;
+}
+
 form {
 	padding: 5px 9px 0 16px;
 }
@@ -144,6 +165,19 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 header {
 	margin-bottom: 40px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	background-color: rgb(242, 242, 242);
+	border-top: 1px solid rgb(228, 228, 228);
 }
